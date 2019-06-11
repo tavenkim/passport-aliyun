@@ -1,0 +1,48 @@
+{
+  "name": "passport-aliyun",
+  "version": "0.1.0",
+  "description": "Aliyun authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "aliyun",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "tavenkim",
+    "email": "tavenkim@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tavenkim/passport-aliyun.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tavenkim/passport-aliyun/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth1": "1.x.x",
+    "urllib": "2.x.x"
+  },
+  "devDependencies": {
+    "make-node": "0.3.x",
+    "mocha": "1.x.x",
+    "chai": "2.x.x",
+    "chai-passport-strategy": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --require test/bootstrap/node test/*.test.js"
+  }
+}
